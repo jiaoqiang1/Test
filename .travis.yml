@@ -4,3 +4,13 @@ node_js:
 before_script:
   - npm install grunt-cli -g
 install: npm install
+language: c
+
+install:
+    - make 
+
+script:
+    - "./hello"
+
+after_failure:
+    - email
