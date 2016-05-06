@@ -4,3 +4,4 @@ all:
 clean:
 	-rm -rf hello
 
+//make命令自动编译
